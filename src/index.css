@@ -1,0 +1,584 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(223, 223, 232);
+  height: 100vh;
+  width: 100%;
+}
+
+.input_box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.input_box > input{
+  padding: 10px;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  border: none;
+  outline: none;
+}
+
+.input_Container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.timer_button{
+  padding: 10px;
+  width: 100px;
+  height: 40px;
+  border: none;
+  outline: none;
+  background-color: blue;
+  color: aliceblue;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px;
+ 
+}
+
+.timer_box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+
+/* ---------------------FAQ project----------- */
+
+.faq_container{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(188, 187, 187);
+  margin: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 16px;
+  color: rgb(9, 66, 91);
+  width: 768px;
+  
+}
+
+.ques__container{
+  display: flex;
+  gap: 10px;
+}
+
+.ques{
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.ans{
+  color: rgb(177, 56, 161);
+  margin-left: 20px;
+}
+
+.arrow{
+  transform: rotate(90deg);
+}
+
+.ques__container > button{
+  width: 25px;
+  height: 25px;
+  font-size: 20px;
+  font-weight: 700;
+  background-color: rgb(188, 187, 187);
+  border: none;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .faq_container {
+    width: 480px;
+  }
+}
+
+/* --------------------EMI calculator------------------ */
+
+
+.emi__container{
+  /* display: flex;
+  flex-direction: column;
+  background-color: rgb(176, 144, 207);
+  width: 400px;
+  height: 450px;
+  align-items: center;
+  justify-content: center; */
+  width: 400px;
+  height: 450px;
+  background-color: white;
+  margin: 100px auto;
+  border-radius: 5px;
+}
+
+.input__container{
+  margin: 0 40px;
+}
+
+.input__container >p{
+  font-size: 20px;
+  font-weight: 500;
+  color: rgb(47, 47, 177);
+  margin: 10px;
+}
+
+.input__container > input{
+  width: 100%;
+  height: 40px;
+  font-size: 20px;
+}
+.emi__container>h1{
+  text-align: center;
+  padding: 10px;
+  font-size: 30px;
+  color: rgb(34, 34, 196);
+}
+
+.out{
+  text-align: center;
+  margin: 20px auto;
+  font-size: 20px;
+  color: blueviolet;
+}
+
+/* ----------------modal proj-------------------------- */
+
+.offer__btn{
+  width: 150px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: purple;
+  border: none;
+  cursor: pointer;
+  color: white;
+}
+
+.modal{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 0;
+ background-color: rgb(190, 187, 187);
+ backdrop-filter: blur(10px);
+ width: 100%;
+ height: 100%;
+display: grid;
+place-items: center;
+ 
+}
+
+.modal__content{
+  background-color: pink;
+  display: flex;
+  flex-direction: column;
+  gap: 20%;
+  padding: 16px;
+  position: relative;
+}
+
+.close__btn{
+  position: absolute;
+  background-color: pink;
+  outline: none;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.content{
+  margin-top: 40px;
+  width: 300px;
+  height:200px ;
+  font-size: 20px;
+}
+
+.accept__btn{
+  height: 40px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+
+
+/* ========================undo counter proj=============== */
+
+
+
+.counter__buttons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.app__button{
+  width: 100px;
+  height: 40px;
+  border: none;
+  background-color: purple;
+  color: white;
+  margin: 10px;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 5px;
+}
+
+.counterValue{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.history__box{
+  width: 400px;
+  height: 600px;
+  border: 1px solid;
+  margin: 40px auto;
+}
+
+.row{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 10px;
+  
+}
+
+
+/* ==============================Shopping list project=============== */
+
+
+.shopping_input{
+  width: 250px;
+  height: 40px;
+  margin: 20px auto;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px;
+  outline: none;
+}
+
+.shopping__list{
+  width: 250px;
+  height: 150px;
+  overflow-y: auto;
+  background-color: rgb(176, 161, 161);
+}
+
+.shopping__item{
+  margin: 10px;
+  text-align: left;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 5px;
+}
+
+
+.shopping__item:hover{
+  background-color: aliceblue;
+}
+
+
+.bucket__list{
+  width: 300px;
+  margin: 20px auto;
+
+}
+
+.single__listItem{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 30px;
+  background-color: lightseagreen;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.list__button{
+  background-color: lightseagreen;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 1px;
+  
+}
+
+.list__button:hover{
+  background-color: lightgreen;
+}
+
+.strike{
+  text-decoration: line-through;
+  color: lightgray;
+}
+
+/* =================multi form============= */
+
+.Multiformcontainer{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.multifornInput{
+  width: 250px;
+  height: 30px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+
+.multiformButton{
+
+  width: 100px;
+  height: 25px;
+  background-color: purple;
+  color: whitesmoke;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+
+/* ============================imagage corousel============= */
+
+.img__caraousel{
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.corousel_button{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  font-size:20px ;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+.right{
+  right: 0;
+}
+
+/* ======================two factor code input---=========== */
+
+
+.code__input > input{
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+.code__input >input:focus{
+  outline-color: blue;
+}
+
+.app >button{
+  height: 40px;
+  width: 100px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: purple;
+  color: white;
+  margin-top: 30px;
+  border: none;
+  
+}
+
+.error{
+  border: 2px solid red;
+}
+
+/* ============================calculator============== */
+
+.calculator__container{
+  margin-top: 40px;
+  width: 50vh;
+  height: 50vh;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap:16px ;
+}
+
+.calculator__input{
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  width: 250px;
+  height: 40px;
+  border: none;
+  outline: none;
+}
+
+
+.cell{
+  background-color: lightseagreen;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  align-content: center;
+}
+
+/* ====================rating project================= */
+
+
+.star{
+  margin: 10px;
+  font-size: 70px;
+}
+
+.star__button{
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+
+}
+
+.on{
+  color: black;
+}
+
+.off{
+  color: gray;
+}
+
+
+/* =====================card game============= */
+
+.game{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+
+.cards{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 16px;
+}
+
+.card{
+  width: 30px;
+  height: 30px;
+  background-color: lightgreen;
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+
+}
+
+.show{
+  font-size: 25px;
+}
+
+.hide{
+  font-size: 0;
+}
+
+.remove{
+  visibility: hidden;
+}
+
+/* =======================graph proj================ */
+
+
+.App{
+  height: 100vh;
+  width: 100%;
+}
+
+.container{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.box{
+  display: flex;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+  width: 50%;
+  height: 65%;
+  position: relative;
+}
+
+.box-y-axis{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 0;
+  left: -32px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.box-x-axis{
+  flex: 1;
+  text-align: center;
+  position: relative;
+  display: flex;
+}
+
+.graph{
+  width: 20px;
+  background-color: lightseagreen;
+  transform: translateY((-50%));
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+}
+
+.index{
+  position: absolute;
+  bottom: -7%;
+  align-self: center;
+  left: 45%;
+}
+
