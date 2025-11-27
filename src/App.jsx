@@ -10,6 +10,7 @@ import MemeoryApp from "./projects/memory game/MemeoryApp.jsx";
 import ModalApp from "./projects/Modal/ModalApp.jsx";
 import MuliFormApp from "./projects/Multi form/MuliFormApp.jsx";
 import OtpApp from "./projects/OTP/OtpApp.jsx";
+import ProgressApp from "./projects/Progress bar/ProgressApp.jsx";
 import ShoppingList from "./projects/Shopping list/ShoppingList.jsx";
 import RatingApp from "./projects/Star rating/RatingApp.jsx";
 import UndoRedo from "./projects/Undoable counter/UndoRedo.jsx";
@@ -30,7 +31,8 @@ function App() {
       {/* <RatingApp/> */}
       {/* <MemeoryApp/> */}
       {/* <Graph/> */}
-      <FolderApp />
+      {/* <FolderApp /> */}
+      <ProgressApp />
     </div>
   );
 }
