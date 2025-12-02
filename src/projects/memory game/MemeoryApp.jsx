@@ -96,4 +96,4 @@ const MemeoryApp = () => {
   );
 };
 
-export default MemeoryApp;
+export default MemeoryApp
