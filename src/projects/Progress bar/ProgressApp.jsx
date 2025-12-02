@@ -5,9 +5,12 @@ const ProgressApp = () => {
   const [value, setValue] = React.useState(0);
   const [success, setSuccess] = React.useState(false);
   useEffect(() => {
-    setInterval(() => {
+    let tid;
+    tid = setInterval(() => {
       setValue((val) => val + 1);
     }, 100);
+
+    return () => clearInterval(tid);
   });
 
   return (

@@ -29,10 +29,10 @@ function App() {
       {/* <OtpApp/> */}
       {/* <CalculatorApp/> */}
       {/* <RatingApp/> */}
-      {/* <MemeoryApp/> */}
+      <MemeoryApp/>
       {/* <Graph/> */}
       {/* <FolderApp /> */}
-      <ProgressApp />
+      {/* <ProgressApp /> */}
     </div>
   );
 }
